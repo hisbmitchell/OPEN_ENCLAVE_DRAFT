@@ -150,9 +150,15 @@
 
   div {
    position: relative;
-   overflow-y: scroll;
+   overflow-y: hidden;
    padding-top: 5%;
+   -ms-overflow-style: none;
+   
    }
+  
+  div::-webkit-scrollbar {
+    display: none;
+}
 
    #INTRO {
 
