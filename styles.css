@@ -191,7 +191,16 @@
      max-width: 40%;
      overflow-y: hidden;
      line-height: 1.8;
+     -ms-overflow-style: none;
+    
+    
   }
+  
+
+  
+  p::-webkit-scrollbar {
+    display: none;
+}
 
   #intro {
    margin-top: 10%;
